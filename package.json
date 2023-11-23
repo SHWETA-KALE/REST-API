@@ -1,0 +1,22 @@
+{
+  "name": "rest_api_telusko",
+  "version": "1.0.0",
+  "description": "creating REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "shweta kale",
+  "license": "ISC",
+  "dependencies": {
+    "bson": "^6.2.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "nodemon": "^3.0.1"
+  }
+}
